@@ -1,4 +1,4 @@
-# ClinicBuddy - Clinic Management Syste
+# ClinicBuddy - Clinic Management System
 
 ![GitHub stars](https://img.shields.io/github/stars/your-username/clinicbuddy?style=social)
 ![GitHub license](https://img.shields.io/github/license/your-username/clinicbuddy)
