@@ -97,6 +97,13 @@ Email: atharavsingh2002@gmail.com
 
 ---
 
+## License
+
+This project is **not open-source**. All rights reserved by [Kunwar Atharav Singh Kotwal](mailto:your.email@example.com).  
+See the [LICENSE](./LICENSE) file for more information.
+
+---
+
 ## 💖 Acknowledgements
 TensorFlow.js for AI model infrastructure
 
