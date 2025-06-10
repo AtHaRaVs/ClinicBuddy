@@ -1,10 +1,8 @@
-import { useEffect } from "react";
-import { useState } from "react";
-import UserLogin from "./components/UserLogin";
+import { useEffect, useState } from "react";
+import UserRegistration from "./components/UserRegistration";
 
 export default function App() {
   const [message, setMessage] = useState("");
-
   useEffect(() => {
     fetch("http://localhost:8000/")
       .then((res) => res.text())
@@ -13,7 +11,9 @@ export default function App() {
 
   return (
     <div>
-      <UserLogin />
+      <div className="App">
+        <UserRegistration />
+      </div>
     </div>
   );
 }

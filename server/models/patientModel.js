@@ -18,9 +18,9 @@ const patientSchema = new mongoose.Schema(
     environmentalAllergies: [String],
     chronicConditions: [String],
     currentMedications: [String],
-    password: String,
     address: String,
     pinCode: Number,
+    emailVerified: Boolean,
   },
   { timestamps: true }
 );
