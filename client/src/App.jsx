@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UserRegistration from "./components/UserRegistration";
+import PatientRegistration from "./components/patient/PatientRegistration";
 
 export default function App() {
   const [message, setMessage] = useState("");
@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div>
       <div className="App">
-        <UserRegistration />
+        <PatientRegistration />
       </div>
     </div>
   );

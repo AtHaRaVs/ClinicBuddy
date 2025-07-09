@@ -4,13 +4,13 @@ import { useFormik } from "formik";
 import {
   registrationValidation,
   initialFormValues,
-} from "../validation/registrationSchema";
+} from "../../validation/registrationSchema";
 import { RegistrationForm } from "./RegistrationForm";
 import "./userLogin.css";
-import { useEmailVerification } from "../hooks/useEmailVerification";
-import { RegistrationService } from "../services/registrationService";
+import { useEmailVerification } from "../../hooks/useEmailVerification";
+import { RegistrationService } from "../../services/registrationService";
 
-export default function UserRegistration() {
+export default function PatientRegistration() {
   const [registrationStep, setRegistrationStep] = useState("form");
   const { verificationState, sendVerification, checkVerification, isVerified } =
     useEmailVerification();

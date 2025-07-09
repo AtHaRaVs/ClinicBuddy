@@ -1,6 +1,6 @@
 // components/RegistrationForm.jsx
-import { EmailVerificationField } from "./common/EmailVerificationField";
-import { FormField } from "./common/FormField";
+import { EmailVerificationField } from "../common/EmailVerificationField";
+import { FormField } from "../common/FormField";
 
 export const RegistrationForm = ({
   formik,
