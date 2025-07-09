@@ -7,10 +7,8 @@ const registerPatient = async (req, res) => {
       ...req.body,
       patientId: uuidv4(),
     });
-    console.log("Received registration data:", req.body);
-    const patientId = patient.patientId;
-    console.log("patient created:", patient);
-    const existingUser = await Patient.findOne({ patientId });
+    const email = patient.email;
+    const existingUser = await Patient.findOne({ email });
     if (existingUser) {
       return res.status(400).json({ error: "User already exists" });
     }
